@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Empleados</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src='js/registro.js'></script>
+</head> 
+<body>
+    <center>
+        <br><br><br><br><br><br><br>
+    <div class="registro" id="contenedor">
+        <h2 style="color: white; font-size: 40px">Crear una cuenta</h2><br><br>
+        <form id="formulario" action="">
+            <label style="color: white; font-size: 20px" for="">Nombres y Apellidos</label>
+            <input style= "border: 1px solid rgb(105, 105, 113); border-radius: 5px" type="text" id="nombres" autofocus placeholder="  Ingrese sus nombres">
+            <br>
+            <br>
+
+            <label style="color: white; font-size: 20px" for="">Usuario</label>
+            <input style= "border: 1px solid rgb(105, 105, 113); border-radius: 5px" type="text" id="usuario" autofocus placeholder="  Ingrese su usuario">
+            <br>
+            <br>
+
+            <label style="color: white; font-size: 20px" for="">Correo electronico</label>
+            <input style= "border: 1px solid rgb(105, 105, 113); border-radius: 5px" type="email" id="email" autofocus placeholder="  Ingrese su email">
+            <br>
+            <br>
+
+            <label style="color: white; font-size: 20px" for=""> Contraseña</label>
+            <input style= "border: 1px solid rgb(105, 105, 113); border-radius: 5px" type="password" id="password" placeholder="  Ingrese su contraseña"><br><br>
+            <br>
+          
+            <input style="font-size: 23px; color: rgb(255, 255, 255); background-color: rgb(111, 113, 255); border: 1px solid rgb(255, 255, 255); border-radius: 15px;" type="button" id="registrar" value="  Crear  "> </input>
+
+            <input style="font-size: 23px; color: rgb(255, 255, 255); background-color: rgb(111, 113, 255); border: 1px solid rgb(255, 255, 255); border-radius: 15px;" type="button" id="volver" value=" Volver " onclick="volver"> </input>
+
+        </form>
+    </center>
+    </div>
+</body>
+</html>
